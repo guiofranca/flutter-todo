@@ -32,7 +32,7 @@ jobs:
           git config --global user.email ${{secrets.email}}
           git config --global user.name guiofranca
           git status
-          git remote add origin https://${{secrets.token}}@github.com/guiofranca/guiofranca.github.io.git
+          git remote add origin https://${{secrets.token}}@github.com/guiofranca/flutter-todo
           git checkout -b gh-pages
           git add --all
           git commit -m "update"
